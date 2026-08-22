@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Calculator</title>
+
+<!--<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#141e30,#243b55);
+}
+
+.calculator{
+    width:340px;
+    background:#1f2937;
+    border-radius:20px;
+    padding:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,.4);
+}
+
+.display{
+    width:100%;
+    height:80px;
+    background:#111827;
+    border:none;
+    border-radius:12px;
+    color:#fff;
+    font-size:32px;
+    text-align:right;
+    padding:15px;
+    margin-bottom:20px;
+    outline:none;
+}
+
+.buttons{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:12px;
+}
+
+button{
+    height:65px;
+    border:none;
+    border-radius:12px;
+    font-size:22px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.2s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+.number{
+    background:#374151;
+    color:white;
+}
+
+.operator{
+    background:#f59e0b;
+    color:white;
+}
+
+.equal{
+    background:#10b981;
+    color:white;
+    grid-column:span 2;
+}
+
+.clear{
+    background:#ef4444;
+    color:white;
+}
+
+.zero{
+    grid-column:span 2;
+}
+</style>-->
+<style>
+    *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#060c21;
+overflow:hidden;
+}
+
+.background{
+position:absolute;
+width:100%;
+height:100%;
+overflow:hidden;
+}
+
+.circle{
+position:absolute;
+border-radius:50%;
+filter:blur(90px);
+}
+
+.c1{
+width:350px;
+height:350px;
+background:#00ffff;
+top:-80px;
+left:-80px;
+}
+
+.c2{
+width:350px;
+height:350px;
+background:#ff00ff;
+bottom:-80px;
+right:-80px;
+}
+
+.calculator{
+position:relative;
+width:360px;
+padding:25px;
+border-radius:25px;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,.2);
+
+box-shadow:
+0 0 40px rgba(0,255,255,.4),
+0 0 70px rgba(255,0,255,.2);
+}
+
+#display{
+
+width:100%;
+height:85px;
+
+border:none;
+
+outline:none;
+
+border-radius:15px;
+
+background:rgba(255,255,255,.08);
+
+color:#fff;
+
+font-size:35px;
+
+text-align:right;
+
+padding:20px;
+
+margin-bottom:20px;
+
+box-shadow:inset 0 0 15px rgba(0,255,255,.3);
+}
+
+.buttons{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:15px;
+}
+
+button{
+
+height:70px;
+
+border:none;
+
+border-radius:15px;
+
+font-size:22px;
+
+color:white;
+
+cursor:pointer;
+
+background:rgba(255,255,255,.07);
+
+backdrop-filter:blur(10px);
+
+transition:.25s;
+
+box-shadow:
+0 0 10px rgba(0,255,255,.2);
+}
+
+button:hover{
+
+transform:translateY(-5px);
+
+background:#00eaff;
+
+color:black;
+
+box-shadow:
+
+0 0 20px #00ffff,
+
+0 0 40px #00ffff;
+}
+
+.operator{
+
+color:#00ffff;
+
+font-weight:bold;
+}
+
+.equal{
+
+background:#00ffff;
+
+color:black;
+
+font-weight:bold;
+}
+
+.equal:hover{
+
+background:#00ffaa;
+
+box-shadow:
+
+0 0 25px #00ffaa,
+
+0 0 50px #00ffaa;
+}
+
+.zero{
+
+grid-column:span 2;
+}
+
+@media(max-width:450px){
+
+.calculator{
+
+width:95%;
+
+}
+
+button{
+
+height:65px;
+
+font-size:20px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="calculator">
+    <input type="text" id="display" class="display" readonly>
+
+    <div class="buttons">
+
+        <button class="clear" onclick="clearDisplay()">C</button>
+        <button class="operator" onclick="deleteLast()">⌫</button>
+        <button class="operator" onclick="append('%')">%</button>
+        <button class="operator" onclick="append('/')">÷</button>
+
+        <button class="number" onclick="append('7')">7</button>
+        <button class="number" onclick="append('8')">8</button>
+        <button class="number" onclick="append('9')">9</button>
+        <button class="operator" onclick="append('*')">×</button>
+
+        <button class="number" onclick="append('4')">4</button>
+        <button class="number" onclick="append('5')">5</button>
+        <button class="number" onclick="append('6')">6</button>
+        <button class="operator" onclick="append('-')">−</button>
+
+        <button class="number" onclick="append('1')">1</button>
+        <button class="number" onclick="append('2')">2</button>
+        <button class="number" onclick="append('3')">3</button>
+        <button class="operator" onclick="append('+')">+</button>
+
+        <button class="number zero" onclick="append('0')">0</button>
+        <button class="number" onclick="append('.')">.</button>
+        <button class="equal" onclick="calculate()">=</button>
+
+    </div>
+</div>
+
+<script>
+let display = document.getElementById("display");
+
+function append(value){
+    display.value += value;
+}
+
+function clearDisplay(){
+    display.value = "";
+}
+
+function deleteLast(){
+    display.value = display.value.slice(0,-1);
+}
+
+function calculate(){
+    try{
+        display.value = eval(display.value);
+    }
+    catch{
+        display.value = "Error";
+    }
+}
+</script>
+
+</body>
+</html>
