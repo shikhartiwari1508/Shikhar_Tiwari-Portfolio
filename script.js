@@ -616,10 +616,10 @@ const projectData = {
             "Student Management System",
 
         description:
-            "A Java-based student record management project designed to organize and manage student information.",
+            "A Python-based student record management project designed to organize and manage student information.",
 
         technologies: [
-            "Java",
+            "Python",
             "OOP",
             "Data Structures",
             "Programming Fundamentals"
@@ -830,13 +830,13 @@ const certificateData = {
     cert1: {
 
         title:
-            "Professional Certificate",
+            "Devtown Certificate",
 
         issuer:
-            "Certificate Program",
+            "Devtown",
 
         image:
-            "WhatsApp Image 2026-07-24 at 11.33.24 PM (1).jpeg",
+            "devtown_appreciation.jpeg",
 
         about:
             "This certificate is included in my professional learning portfolio.",
@@ -853,20 +853,20 @@ const certificateData = {
     cert2: {
 
         title:
-            "Professional Learning Certificate",
+            " Harvard Certificate",
 
         issuer:
-            "Certificate Program",
+            "Harvard",
 
         image:
-            "WhatsApp Image 2026-07-24 at 11.33.25 PM (1).jpeg",
+            "harvard_certificate.jpeg",
 
         about:
-            "A certificate representing additional learning and skill development.",
+            "A certificate representing additional learning and skill developmentin Data Science : Machine Learning.",
 
         learning: [
-            "Course concepts",
-            "Practical learning",
+            "Data Science",
+            "Machine learning",
             "Professional development"
         ]
 
@@ -879,15 +879,17 @@ const certificateData = {
             "Learning Certificate",
 
         issuer:
-            "Certificate Program",
+            "Tata",
 
         image:
-            "WhatsApp Image 2026-07-24 at 11.33.25 PM (2).jpeg",
+            "tata.jpeg",
 
         about:
-            "A certificate included as part of my academic and professional learning journey.",
+            "A certificate included as part of my academic and professional learning journey in GenAI Powered Data Analysis Job Simulation .",
 
         learning: [
+            "GenAI",
+            "Data Analysis",
             "Technical concepts",
             "Problem solving",
             "Continuous learning"
@@ -899,18 +901,19 @@ const certificateData = {
     cert4: {
 
         title:
-            "Professional Development Certificate",
+            "Big Data Certificate",
 
         issuer:
-            "Certificate Program",
+            "Digital Fluency",
 
         image:
-            "WhatsApp Image 2026-07-24 at 11.33.25 PM.jpeg",
+            "bigdata_certificate.jpeg",
 
         about:
-            "Certificate showcasing participation in a learning experience.",
+            "Certificate showcasing in a learning experience in Bigdata.",
 
         learning: [
+            "Overview of Bigdata",
             "Professional development",
             "Learning experience",
             "Skill improvement"
@@ -931,9 +934,10 @@ const certificateData = {
             "google1.jpeg",
 
         about:
-            "A Google certificate included in my professional learning portfolio.",
+            "A Google certificate included in my professional learning portfolio, In this program we can learn the 'Introduction to GenAI'.",
 
         learning: [
+            "GenAI concepts",
             "Technology concepts",
             "Practical learning",
             "Analytical thinking",
@@ -955,9 +959,10 @@ const certificateData = {
             "deloitte.jpeg",
 
         about:
-            "A Deloitte certificate representing professional learning and development.",
+            "A Deloitte certificate representing professional learning and development in Cyber Job Simulation.",
 
         learning: [
+            "Cyber Job Simulation",
             "Analytical thinking",
             "Problem solving",
             "Industry-oriented learning",
@@ -979,9 +984,10 @@ const certificateData = {
             "google2.jpeg",
 
         about:
-            "Additional Google learning certificate included in my portfolio.",
+            "Additional Google learning certificate included in my portfolio, and we can lenrn the Introduction of GenAI Studio.",
 
         learning: [
+            "Introduction to GenAI Studio",
             "Technology learning",
             "Data-related concepts",
             "Practical skills",
@@ -1003,9 +1009,10 @@ const certificateData = {
             "microsoft.jpeg",
 
         about:
-            "A Microsoft-related learning certificate showcasing additional technical exposure.",
+            "A Microsoft-related learning certificate showcasing additional technical exposure , In this program we can learn the Introduction of Prompt Engineering with Github Copilot.",
 
         learning: [
+            "Introduction to Prompt Engineering with GitHub Copilot",
             "Technology concepts",
             "Digital skills",
             "Problem solving",
@@ -1027,9 +1034,10 @@ const certificateData = {
             "tata1.jpeg",
 
         about:
-            "A Tata certificate included in my professional learning portfolio.",
+            "A Tata certificate included in my professional learning portfolio and gain my Data Visulization skills.",
 
         learning: [
+            "Data Visulization",
             "Professional skills",
             "Industry awareness",
             "Analytical thinking",
@@ -1042,18 +1050,22 @@ const certificateData = {
     cert5: {
 
         title:
-            "Professional Certificate",
+            "UI & UX Certificate",
 
         issuer:
-            "Certificate Program",
+            "Udemy",
 
         image:
-            "WhatsApp Image 2026-07-24 at 11.33.24 PM.jpeg",
+            "udemy.jpeg",
 
         about:
-            "A certificate representing participation in a learning experience.",
+            "A certificate representing participation in a learning experience and earning the skill in data quality, data management and data governance .",
 
         learning: [
+            "UI Design",
+            "Data Quality",
+            "Data Management",
+            "Data Governance",
             "Skill development",
             "Learning experience",
             "Professional growth"
