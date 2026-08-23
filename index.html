@@ -2,624 +2,2321 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Shikhar Tiwari | Portfolio</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+          content="Shikhar Tiwari — Data Science Student, AI Enthusiast and Web Developer Portfolio">
 
-    <!-- Font Awesome -->
+    <meta name="keywords"
+          content="Shikhar Tiwari, Data Science, Python, Java, SQL, Web Developer, AI">
+
+    <meta name="author"
+          content="Shikhar Tiwari">
+
+    <meta name="theme-color"
+          content="#07070a">
+
+    <title>
+        Shikhar Tiwari | Data Science & AI Portfolio
+    </title>
+
+
+    <!-- ================= FONTS ================= -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+
+    <!-- ================= FONT AWESOME ================= -->
+
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-    <!-- Google Font -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+
+    <!-- ================= CSS ================= -->
+
+    <link rel="stylesheet"
+          href="style.css">
 
 </head>
 
+
 <body>
-    <!-- Menu Button
-     <div> class="menu-btn" id="MenuBtn"
-        <i>class="fas fa-bars"</i>
-     </div> -->
-     
-    <!-- Animated Background -->
-    <div class="background"></div>
 
-    <!-- Sidebar -->
 
-    <aside class="sidebar">
+<!-- =====================================================
+     PRELOADER
+===================================================== -->
 
-        <div class="logo">
+<div id="preloader">
 
-            <h1>ST</h1>
+    <div class="loader-core">
 
-            <p>Portfolio</p>
+        <div class="loader-ring"></div>
 
-        </div>
+        <span>ST</span>
 
-        <ul>
+    </div>
 
-            <li><a href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+    <p>
+        INITIALIZING PORTFOLIO...
+    </p>
 
-            <li><a href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+</div>
 
-            <li><a href="#skills"><i class="fa-solid fa-code"></i> Skills</a></li>
 
-            <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
 
-            <li><a href="#projects"><i class="fa-solid fa-laptop-code"></i> Projects</a></li>
+<!-- =====================================================
+     CURSOR GLOW
+===================================================== -->
 
-            <li><a href="#certificate"><i class="fa-solid fa-award"></i> Certificates</a></li>
+<div class="cursor-glow"></div>
 
-            <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
 
-        </ul>
 
-        <div class="social">
+<!-- =====================================================
+     BACKGROUND
+===================================================== -->
 
-            <a href="https://github.com/shikhartiwari1508"><i class="fab fa-github"></i></a>
+<div class="background-grid"></div>
 
-            <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+<div class="ambient ambient-one"></div>
 
-            <a href="https://www.instagram.com/accounts/onetap/"><i class="fab fa-instagram"></i></a>
+<div class="ambient ambient-two"></div>
 
-        </div>
+<div class="ambient ambient-three"></div>
 
-    </aside>
 
-    <!-- Hero Section -->
 
-    <section id="home" class="hero">
+<!-- =====================================================
+     SCROLL PROGRESS
+===================================================== -->
 
-        <div class="hero-left">
+<div class="scroll-progress"
+     id="scrollProgress">
+</div>
 
-            <span class="available">
-                🟢 Available for Opportunities
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<header class="navbar"
+        id="navbar">
+
+    <div class="nav-container">
+
+
+        <a href="#home"
+           class="brand">
+
+            <span class="brand-mark">
+                ST
             </span>
 
-            <h3>Hello, I'm 👋</h3>
+            <span>
+                SHIKHAR<span class="accent">.</span>
+            </span>
 
-            <h1>Shikhar <span>Tiwari</span></h1>
+        </a>
 
-            <h2>
-                Data Science Student |
-                AI Enthusiast |
-                Web Developer
-            </h2>
+
+        <nav class="nav-links">
+
+            <a href="#home"
+               class="nav-link active">
+                Home
+            </a>
+
+            <a href="#about"
+               class="nav-link">
+                About
+            </a>
+
+            <a href="#skills"
+               class="nav-link">
+                Skills
+            </a>
+
+            <a href="#education"
+               class="nav-link">
+                Education
+            </a>
+
+            <a href="#projects"
+               class="nav-link">
+                Projects
+            </a>
+
+            <a href="#certificate"
+               class="nav-link">
+                Certificates
+            </a>
+
+        </nav>
+
+
+        <div class="nav-actions">
+
+            <button class="icon-btn"
+                    id="themeBtn"
+                    aria-label="Change theme">
+
+                <i class="fa-solid fa-moon"></i>
+
+            </button>
+
+
+            <button class="command-btn"
+                    id="commandBtn">
+
+                <i class="fa-solid fa-terminal"></i>
+
+                <span>Ctrl K</span>
+
+            </button>
+
+
+            <a href="#contact"
+               class="nav-contact">
+
+                Let's Talk
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+
+            <button class="mobile-menu-btn"
+                    id="menuBtn">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- MOBILE NAV -->
+
+    <div class="mobile-menu"
+         id="mobileMenu">
+
+        <a href="#home">Home</a>
+
+        <a href="#about">About</a>
+
+        <a href="#skills">Skills</a>
+
+        <a href="#education">Education</a>
+
+        <a href="#projects">Projects</a>
+
+        <a href="#certificate">Certificates</a>
+
+        <a href="#contact">Contact</a>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<main>
+
+
+<section id="home"
+         class="hero section-container">
+
+
+    <div class="hero-content">
+
+
+        <div class="status-pill">
+
+            <span class="status-dot"></span>
+
+            Available for Opportunities
+
+        </div>
+
+
+        <p class="hero-mini">
+            HELLO, I'M
+        </p>
+
+
+        <h1>
+
+            Shikhar
+
+            <span>
+                Tiwari
+            </span>
+
+        </h1>
+
+
+        <div class="typing-line">
+
+            <span>
+                I am a
+            </span>
+
+            <span id="typingText">
+                Data Science Student
+            </span>
+
+            <span class="typing-cursor">
+                |
+            </span>
+
+        </div>
+
+
+        <p class="hero-description">
+
+            Passionate about Data Science, Artificial Intelligence,
+            analytics and modern web development. I enjoy turning
+            ideas into practical digital solutions.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+
+            <a href="cv.html"
+               class="btn btn-primary">
+
+                <i class="fa-solid fa-file-arrow-down"></i>
+
+                View CV
+
+            </a>
+
+
+            <a href="#projects"
+               class="btn btn-secondary">
+
+                Explore Projects
+
+                <i class="fa-solid fa-arrow-down"></i>
+
+            </a>
+
+
+        </div>
+
+
+        <div class="hero-socials">
+
+            <a href="https://github.com/shikhartiwari1508"
+               target="_blank"
+               aria-label="GitHub">
+
+                <i class="fa-brands fa-github"></i>
+
+            </a>
+
+
+            <a href="https://www.linkedin.com/in/shikhar-tiwari-222007372"
+               target="_blank"
+               aria-label="LinkedIn">
+
+                <i class="fa-brands fa-linkedin"></i>
+
+            </a>
+
+
+            <a href="https://www.instagram.com/accounts/onetap/"
+               target="_blank"
+               aria-label="Instagram">
+
+                <i class="fa-brands fa-instagram"></i>
+
+            </a>
+
+        </div>
+
+
+        <div class="hero-stats">
+
+            <div>
+
+                <strong>5th</strong>
+
+                <span>
+                    Semester
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong>10+</strong>
+
+                <span>
+                    Technologies
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong>3+</strong>
+
+                <span>
+                    Projects
+                </span>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- HERO VISUAL -->
+
+    <div class="hero-visual">
+
+
+        <div class="orbit orbit-one"></div>
+
+        <div class="orbit orbit-two"></div>
+
+
+        <div class="profile-frame">
+
+            <div class="profile-glow"></div>
+
+            <img src="shikhar.jpeg"
+                 alt="Shikhar Tiwari">
+
+            <div class="profile-overlay">
+
+                <span>
+                    DATA SCIENCE
+                </span>
+
+                <span>
+                    AI • WEB • ANALYTICS
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="floating-tech tech-python">
+
+            <i class="fa-brands fa-python"></i>
+
+            Python
+
+        </div>
+
+
+        <div class="floating-tech tech-ai">
+
+            <i class="fa-solid fa-brain"></i>
+
+            AI
+
+        </div>
+
+
+        <div class="floating-tech tech-data">
+
+            <i class="fa-solid fa-chart-line"></i>
+
+            Data
+
+        </div>
+
+
+        <div class="hero-code-card">
+
+            <span class="code-dot"></span>
+
+            <span class="code-dot"></span>
+
+            <span class="code-dot"></span>
+
+            <code>
+
+                &lt;build
+                <span>future</span>
+                /&gt;
+
+            </code>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section id="about"
+         class="section section-container">
+
+
+    <div class="section-heading">
+
+        <span class="section-number">
+            01 / ABOUT
+        </span>
+
+        <h2>
+            Building with
+            <span>curiosity.</span>
+        </h2>
+
+        <p>
+            A quick introduction about me and what drives my work.
+        </p>
+
+    </div>
+
+
+    <div class="about-grid">
+
+
+        <div class="glass-card about-main">
+
+            <div class="card-icon">
+
+                <i class="fa-solid fa-user-astronaut"></i>
+
+            </div>
+
+
+            <h3>
+                Who I Am
+            </h3>
+
 
             <p>
 
-                Passionate Data Science student who loves solving
-                real-world problems using AI, Machine Learning,
-                Data Analytics and Web Development.
+                I'm Shikhar Tiwari, pursuing an Integrated
+                BCA-MCA in Data Science.
 
             </p>
 
-            <div class="buttons">
 
-                <!--<a href="#" class="btn">Download CV</a>-->
-                <a href="cv.html"class="btn">Download CV</a>
+            <p>
 
-                <a href="#contact" class="btn2">Hire Me</a>
+                I enjoy building websites, exploring AI,
+                working with data and solving real-world
+                problems through technology.
 
-            </div>
+            </p>
 
-        </div>
 
-        <div class="hero-right">
+            <p>
 
-            <div class="profile">
+                My current focus is strengthening my skills
+                in Python, SQL, Data Analytics, Web Development
+                and Artificial Intelligence.
 
-                <img src="shikhar.jpeg" alt="Profile">
+            </p>
 
-            </div>
 
-        </div>
+            <div class="about-tags">
 
-    </section>
+                <span>Problem Solver</span>
 
-    <!-- About -->
+                <span>Data Explorer</span>
 
-    <section id="about">
+                <span>AI Enthusiast</span>
 
-        <div class="section-title">
-
-            <h2>About Me</h2>
-
-        </div>
-
-        <div class="about-container">
-
-            <div class="about-left">
-
-                <p>
-
-                • I'm Shikhar Tiwari, pursuing an Integrated
-                    BCA-MCA in Data Science.
-                </p>
-                <br>
-                <p>
-                • I enjoy building beautiful websites,
-                    AI projects and solving real-world
-                    problems with technology.
-
-                </p>
-                <br>
-                <p>
-                • Motivated and detail-oriented BCA student with a strong interest in Data Science, Python, SQL, and Web Development. 
-                </p>
-                <br>
-                <p>
-                • Passionate about learning new technologies and solving real-world problems through data-driven solutions.
-                </p>
-                <br>
-                <p>
-                • Seeking an Internship or entry-level Opportunitiy to enhance technical skills.
-                </p>
-                <br>
-                <p>
-                • Aspiring Data Analyst with hands on knowledge pf Python, SQL, NumPy, Pandas, Tableau, Power BI, HTML, CSS, and 
-                   JavaScript. 
-                </p>
-                <br>
-                <p>
-                 • Passionate about learning new technologies and solving real-world problems through data-driven solutions.
-                </p>
-                <br>
-                <p>
-                 • Seeking an Internship or entry-level opportunity to enhance technical skills.
-                </p>
-
-            </div>
-
-            <div class="about-right">
-
-                <div class="info-card">
-
-                    <h3>Name</h3>
-
-                    <p>Shikhar Tiwari</p>
-
-                </div>
-
-                <div class="info-card">
-
-                    <h3>Email</h3>
-
-                    <p>shikhar15aug@gmail.com</p>
-
-                </div>
-
-                <div class="info-card">
-
-                    <h3>Phone</h3>
-
-                    <p>7232977068</p>
-
-                </div>
-
-                
-                <div class="info-card">
-
-                    <h3>GitHub</h3>
-
-                    <p>https://github.com/shikhartiwari1508</p>
-
-                </div>
-
-                
-                <div class="info-card">
-
-                    <h3>LinkdIn</h3>
-
-                    <p>https://www.linkedin.com/in/shikhar-tiwari-222007372</p>
-
-                </div>
-
-                <div class="info-card">
-
-                    <h3>Location</h3>
-
-                    <p>Pratapgarh, India</p>
-
-                </div>
+                <span>Continuous Learner</span>
 
             </div>
 
         </div>
 
-    </section>
 
-    <!-- ================= Skills Section ================= -->
 
-<section id="skills">
+        <div class="about-info">
 
-    <div class="section-title">
-        <h2>My Skills</h2>
-        <p>Technologies I use to build modern applications.</p>
-    </div>
 
-    <div class="skills-container">
+            <div class="info-box">
 
-        <div class="skill-card">
-            <i class="fab fa-python"></i>
-            <h3>Python</h3>
-            <div class="progress">
-                <span style="width:90%"></span>
+                <span>
+                    NAME
+                </span>
+
+                <strong>
+                    Shikhar Tiwari
+                </strong>
+
             </div>
-        </div>
 
-        <div class="skill-card">
-            <i class="fab fa-java"></i>
-            <h3>Java</h3>
-            <div class="progress">
-                <span style="width:87%"></span>
+
+            <div class="info-box">
+
+                <span>
+                    EDUCATION
+                </span>
+
+                <strong>
+                    Integrated BCA-MCA
+                </strong>
+
             </div>
-        </div>
 
-        <div class="skill-card">
-            <i class="fa-solid fa-code"></i>
-            <h3>C Programming</h3>
-            <div class="progress">
-                <span style="width:75%"></span>
+
+            <div class="info-box">
+
+                <span>
+                    SPECIALIZATION
+                </span>
+
+                <strong>
+                    Data Science
+                </strong>
+
             </div>
-        </div>
 
 
+            <div class="info-box">
 
-        <div class="skill-card">
-            <i class="fa-solid fa-database"></i>
-            <h3>SQL</h3>
-            <div class="progress">
-                <span style="width:85%"></span>
+                <span>
+                    LOCATION
+                </span>
+
+                <strong>
+                    Pratapgarh, India
+                </strong>
+
             </div>
-        </div>
 
-        <div class="skill-card">
-            <i class="fab fa-html5"></i>
-            <h3>HTML5</h3>
-            <div class="progress">
-                <span style="width:95%"></span>
-            </div>
-        </div>
 
-        <div class="skill-card">
-            <i class="fab fa-css3-alt"></i>
-            <h3>CSS3</h3>
-            <div class="progress">
-                <span style="width:90%"></span>
-            </div>
-        </div>
+            <div class="info-box">
 
-        <div class="skill-card">
-            <i class="fab fa-js"></i>
-            <h3>JavaScript</h3>
-            <div class="progress">
-                <span style="width:80%"></span>
-            </div>
-        </div>
+                <span>
+                    EMAIL
+                </span>
 
-        <div class="skill-card">
-            <i class="fa-solid fa-chart-line"></i>
-            <h3>Data Analytics</h3>
-            <div class="progress">
-                <span style="width:88%"></span>
-            </div>
-        </div>
+                <a href="mailto:shikhar15aug@gmail.com">
+                    shikhar15aug@gmail.com
+                </a>
 
-        <div class="skill-card">
-            <i class="fa-solid fa-laptop-code"></i>
-            <h3>R Programming</h3>
-            <div class="progress">
-                <span style="width:85%"></span>
             </div>
-        </div>
-        
-        <div class="skill-card">
-            <i class="fa-solid fa-chart-simple"></i>
-            <h3>Power BI</h3>
-            <div class="progress">
-                <span style="width:85%"></span>
+
+
+            <div class="info-box">
+
+                <span>
+                    GITHUB
+                </span>
+
+                <a href="https://github.com/shikhartiwari1508"
+                   target="_blank">
+
+                    @shikhartiwari1508
+
+                </a>
+
             </div>
+
+
         </div>
 
     </div>
 
 </section>
 
-<!-- ================= Education ================= -->
 
-<section id="education">
 
-    <div class="section-title">
-        <h2>Education</h2>
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section id="skills"
+         class="section section-alt">
+
+
+    <div class="section-container">
+
+
+        <div class="section-heading">
+
+            <span class="section-number">
+                02 / SKILLS
+            </span>
+
+            <h2>
+                My technical
+                <span>toolkit.</span>
+            </h2>
+
+            <p>
+                Technologies and tools I use while learning and building.
+            </p>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+
+                    <div class="skill-icon python">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+
+                    <span>
+                        90%
+                    </span>
+
+                </div>
+
+                <h3>Python</h3>
+
+                <p>
+                    Programming, automation and data work.
+                </p>
+
+                <div class="skill-bar">
+                    <span style="width:90%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+
+                    <div class="skill-icon java">
+                        <i class="fa-brands fa-java"></i>
+                    </div>
+
+                    <span>
+                        87%
+                    </span>
+
+                </div>
+
+                <h3>Java</h3>
+
+                <p>
+                    OOP and application development.
+                </p>
+
+                <div class="skill-bar">
+                    <span style="width:87%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+
+                    <span>
+                        85%
+                    </span>
+
+                </div>
+
+                <h3>SQL</h3>
+
+                <p>
+                    Database queries and data management.
+                </p>
+
+                <div class="skill-bar">
+                    <span style="width:85%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+
+                    <span>
+                        88%
+                    </span>
+
+                </div>
+
+                <h3>Data Analytics</h3>
+
+                <p>
+                    Analysis, EDA and visualization.
+                </p>
+
+                <div class="skill-bar">
+                    <span style="width:88%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+
+                    <span>
+                        95%
+                    </span>
+
+                </div>
+
+                <h3>HTML5</h3>
+
+                <p>
+                    Semantic and responsive web structure.
+                </p>
+
+                <div class="skill-bar">
+                    <span style="width:95%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+
+                    <span>
+                        90%
+                    </span>
+
+                </div>
+
+                <h3>CSS3</h3>
+
+                <p>
+                    UI design, animations and responsive layouts.
+                </p>
+
+                <div class="skill-bar">
+                    <span style="width:90%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+
+                    <span>
+                        80%
+                    </span>
+
+                </div>
+
+                <h3>JavaScript</h3>
+
+                <p>
+                    Interactivity and frontend logic.
+                </p>
+
+                <div class="skill-bar">
+                    <span style="width:80%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-top">
+
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-chart-simple"></i>
+                    </div>
+
+                    <span>
+                        85%
+                    </span>
+
+                </div>
+
+                <h3>Power BI</h3>
+
+                <p>
+                    Dashboards and data visualization.
+                </p>
+
+                <div class="skill-bar">
+                    <span style="width:85%"></span>
+                </div>
+
+            </div>
+
+
+        </div>
+
     </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     EDUCATION
+===================================================== -->
+
+<section id="education"
+         class="section section-container">
+
+
+    <div class="section-heading">
+
+        <span class="section-number">
+            03 / EDUCATION
+        </span>
+
+        <h2>
+            My learning
+            <span>journey.</span>
+        </h2>
+
+    </div>
+
 
     <div class="timeline">
 
-        <div class="timeline-item">
-            <div class="circle"></div>
-            <div class="content">
-                <h3>Integrated BCA-MCA (Data Science)</h3>
-                <p>University of Allahabad</p>
-                <div>Currently Pursuing</div>
-                <br>
-                <br>
-                <p>
-                    <a href="4thsem.jpeg"class="btn">Click Here to View 4th Sem Result</a>
-                </p>
-            </div>
-        </div>
+
+        <div class="timeline-line"></div>
+
 
         <div class="timeline-item">
-            <div class="circle"></div>
-            <div class="content">
-                <h3>Intermediate (12th)</h3>
-                <p>Shree Ajab Narayan Public Inter College</p>
-                <div>Completed Successfully</div>
-                <br>
-                <br>
-                <p>
-                    <!--<a href="class_12.jpg">Click here to view result </a>-->
-                    <a href="class_12.jpg"class="btn">Click Here to View Result</a>
-                </p>
+
+            <div class="timeline-dot">
+                <i class="fa-solid fa-graduation-cap"></i>
             </div>
+
+
+            <div class="timeline-card">
+
+                <span class="timeline-date">
+                    2024 — PRESENT
+                </span>
+
+                <h3>
+                    Integrated BCA-MCA
+                </h3>
+
+                <h4>
+                    Data Science
+                </h4>
+
+                <p>
+                    University of Allahabad
+                </p>
+
+                <div class="timeline-tags">
+
+                    <span>Data Science</span>
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>Web Development</span>
+
+                </div>
+
+
+                <a href="4thsem.jpeg"
+                   target="_blank"
+                   class="small-action">
+
+                    View Semester Result
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+            </div>
+
         </div>
 
+
+
         <div class="timeline-item">
-            <div class="circle"></div>
-            <div class="content">
-                <h3>High School (10th)</h3>
-                <p>Shree Ajab Narayan Public Inter College</p>
-                <div>Completed Successfully</div>
-                <br>
-                <br>
-                <p>
-                   <!-- <a href="class_10.jpg">Click here to view result </a>-->
-                    <a href="class_10.jpg"class="btn">Click Here to View Result</a>
-                </p>
+
+            <div class="timeline-dot">
+                <i class="fa-solid fa-school"></i>
             </div>
+
+
+            <div class="timeline-card">
+
+                <span class="timeline-date">
+                    2024
+                </span>
+
+                <h3>
+                    Intermediate — Class XII
+                </h3>
+
+                <p>
+                    Shree Ajab Narayan Public Inter College
+                </p>
+
+                <div class="result-badge">
+                    80.2%
+                </div>
+
+
+                <a href="class_12.jpg"
+                   target="_blank"
+                   class="small-action">
+
+                    View Result
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot">
+                <i class="fa-solid fa-school"></i>
+            </div>
+
+
+            <div class="timeline-card">
+
+                <span class="timeline-date">
+                    2022
+                </span>
+
+                <h3>
+                    High School — Class X
+                </h3>
+
+                <p>
+                    Shree Ajab Narayan Public Inter College
+                </p>
+                
+                <div class="result-badge">
+                    78.5%
+                </div>
+
+                <a href="class_10.jpg"
+                   target="_blank"
+                   class="small-action">
+
+                    View Result
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
+
+<section id="projects"
+         class="section section-alt">
+
+
+    <div class="section-container">
+
+
+        <div class="section-heading">
+
+            <span class="section-number">
+                04 / PROJECTS
+            </span>
+
+            <h2>
+                Things I've
+                <span>built.</span>
+            </h2>
+
+            <p>
+                Explore a project to see its technologies,
+                architecture, features and working.
+            </p>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- PROJECT 1 -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img src="portfolio.png"
+                         alt="Portfolio Website">
+
+                    <span class="project-number">
+                        01
+                    </span>
+
+                </div>
+
+
+                <div class="project-body">
+
+                    <div class="project-meta">
+                        WEB DEVELOPMENT
+                    </div>
+
+                    <h3>
+                        Personal Portfolio
+                    </h3>
+
+                    <p>
+                        A modern responsive portfolio website
+                        designed to showcase skills, education,
+                        projects and certificates.
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+
+                    <div class="project-actions">
+
+                        <button class="detail-btn"
+                                data-project="portfolio">
+
+                            View Details
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </button>
+
+
+                        <a href="https://github.com/shikhartiwari1508"
+                           target="_blank"
+                           class="github-btn">
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PROJECT 2 -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img src="calculator.png"
+                         alt="Calculator Application">
+
+                    <span class="project-number">
+                        02
+                    </span>
+
+                </div>
+
+
+                <div class="project-body">
+
+                    <div class="project-meta">
+                        WEB APPLICATION
+                    </div>
+
+                    <h3>
+                        Calculator App
+                    </h3>
+
+                    <p>
+                        A clean interactive calculator created
+                        using HTML, CSS and JavaScript.
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+
+                    <div class="project-actions">
+
+                        <button class="detail-btn"
+                                data-project="calculator">
+
+                            View Details
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </button>
+
+
+                        <a href="calculator.html"
+                           class="github-btn">
+
+                            <i class="fa-solid fa-play"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PROJECT 3 -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img src="student_management.png"
+                         alt="Student Management System">
+
+                    <span class="project-number">
+                        03
+                    </span>
+
+                </div>
+
+
+                <div class="project-body">
+
+                    <div class="project-meta">
+                        PYTHON APPLICATION
+                    </div>
+
+                    <h3>
+                        Student Management
+                    </h3>
+
+                    <p>
+                        A student record management system
+                        developed using Python and programming concepts.
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>Python</span>
+                        <span>OOP</span>
+                        <span>DSA</span>
+
+                    </div>
+
+
+                    <div class="project-actions">
+
+                        <button class="detail-btn"
+                                data-project="student">
+
+                            View Details
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </button>
+
+
+                        <a href="https://github.com/shikhartiwari1508"
+                           target="_blank"
+                           class="github-btn">
+
+                            <i class="fa-brands fa-github"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PROJECT 4 -->
+
+            <article class="project-card featured-project">
+
+                <div class="project-image">
+
+                    <div class="future-project">
+
+                        <i class="fa-solid fa-robot"></i>
+
+                        <span>
+                            IN DEVELOPMENT
+                        </span>
+
+                    </div>
+
+                    <span class="project-number">
+                        04
+                    </span>
+
+                </div>
+
+
+                <div class="project-body">
+
+                    <div class="project-meta">
+                        AI / DATA SCIENCE
+                    </div>
+
+                    <h3>
+                        CareerPilot AI
+                    </h3>
+
+                    <p>
+                        An AI-powered career assistant concept
+                        designed for resume analysis, ATS scoring,
+                        skill gaps and career guidance.
+                    </p>
+
+
+                    <div class="project-tech">
+
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>LLM</span>
+                        <span>SQL</span>
+
+                    </div>
+
+
+                    <div class="project-actions">
+
+                        <button class="detail-btn"
+                                data-project="careerpilot">
+
+                            View Details
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
         </div>
 
     </div>
 
 </section>
 
-<!-- ================= PROJECTS ================= -->
-
-<section id="projects">
-
-    <div class="section-title">
-        <h2>My Projects</h2>
-        <p>Some of my featured work</p>
-    </div>
-
-    <div class="projects-container">
-
-        <div class="project-card">
-            <img src="portfolio.png" alt="">
-            <div class="project-content">
-                <h3>Portfolio Website</h3>
-                <p>Modern responsive portfolio with Glassmorphism UI.</p>
 
 
-               <!-- <div class="buttons">
+<!-- =====================================================
+     CERTIFICATES
+===================================================== -->
 
-                    <a href="#" class="btn">Download CV</a>
-                    <a href="cv.html"class="btn">Download CV</a>
-                </div>-->
+<section id="certificate"
+         class="section section-container">
 
 
+    <div class="section-heading">
 
-                <div class="project-btn">
-                    <a href="#"class="btn">Live Demo</a>
-                    <a href="#"class="btn">GitHub</a>
-                    <!--<a href="#">Live Demo</a>-->
-                </div>
+        <span class="section-number">
+            05 / CERTIFICATES
+        </span>
 
-            </div>
-        </div>
+        <h2>
+            Learning beyond
+            <span>classrooms.</span>
+        </h2>
 
-        <div class="project-card">
-            <img src="calculator.png" alt="">
-            <div class="project-content">
-                <h3>Calculator App</h3>
-                <p>Professional Calculator using HTML CSS JavaScript.</p>
-
-                <div class="project-btn">
-                    <a href="calculator.html"class="btn">Live Demo</a>
-                    <a href="#"class="btn">GitHub</a>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="project-card">
-            <img src="student_management.png" alt="">
-            <div class="project-content">
-                <h3>Student Management</h3>
-                <p>Student Record System using Java.</p>
-
-                <div class="project-btn">
-                    <a href="#"class="btn">Live Demo</a>
-                    <a href="#"class="btn">GitHub</a>
-                </div>
-
-            </div>
-        </div>
+        <p>
+            Click any certificate to explore its information.
+        </p>
 
     </div>
 
+
+    <div class="certificate-grid">
+
+
+        <!-- CERTIFICATE -->
+
+        <article class="certificate-card">
+
+            <div class="certificate-image">
+
+                <img src="WhatsApp Image 2026-07-24 at 11.33.24 PM (1).jpeg"
+                     alt="Certificate">
+
+                <div class="certificate-overlay">
+
+                    <button class="certificate-btn"
+                            data-certificate="cert1">
+
+                        View Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="certificate-card">
+
+            <div class="certificate-image">
+
+                <img src="WhatsApp Image 2026-07-24 at 11.33.25 PM (1).jpeg"
+                     alt="Certificate">
+
+                <div class="certificate-overlay">
+
+                    <button class="certificate-btn"
+                            data-certificate="cert2">
+
+                        View Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="certificate-card">
+
+            <div class="certificate-image">
+
+                <img src="WhatsApp Image 2026-07-24 at 11.33.25 PM (2).jpeg"
+                     alt="Certificate">
+
+                <div class="certificate-overlay">
+
+                    <button class="certificate-btn"
+                            data-certificate="cert3">
+
+                        View Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="certificate-card">
+
+            <div class="certificate-image">
+
+                <img src="WhatsApp Image 2026-07-24 at 11.33.25 PM.jpeg"
+                     alt="Certificate">
+
+                <div class="certificate-overlay">
+
+                    <button class="certificate-btn"
+                            data-certificate="cert4">
+
+                        View Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="certificate-card">
+
+            <div class="certificate-image">
+
+                <img src="google1.jpeg"
+                     alt="Google Certificate">
+
+                <div class="certificate-overlay">
+
+                    <button class="certificate-btn"
+                            data-certificate="google1">
+
+                        View Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="certificate-card">
+
+            <div class="certificate-image">
+
+                <img src="deloitte.jpeg"
+                     alt="Deloitte Certificate">
+
+                <div class="certificate-overlay">
+
+                    <button class="certificate-btn"
+                            data-certificate="deloitte">
+
+                        View Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="certificate-card">
+
+            <div class="certificate-image">
+
+                <img src="google2.jpeg"
+                     alt="Google Certificate">
+
+                <div class="certificate-overlay">
+
+                    <button class="certificate-btn"
+                            data-certificate="google2">
+
+                        View Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="certificate-card">
+
+            <div class="certificate-image">
+
+                <img src="microsoft.jpeg"
+                     alt="Microsoft Certificate">
+
+                <div class="certificate-overlay">
+
+                    <button class="certificate-btn"
+                            data-certificate="microsoft">
+
+                        View Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="certificate-card">
+
+            <div class="certificate-image">
+
+                <img src="tata1.jpeg"
+                     alt="Tata Certificate">
+
+                <div class="certificate-overlay">
+
+                    <button class="certificate-btn"
+                            data-certificate="tata">
+
+                        View Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="certificate-card">
+
+            <div class="certificate-image">
+
+                <img src="WhatsApp Image 2026-07-24 at 11.33.24 PM.jpeg"
+                     alt="Certificate">
+
+                <div class="certificate-overlay">
+
+                    <button class="certificate-btn"
+                            data-certificate="cert5">
+
+                        View Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="certificate-card">
+
+            <div class="certificate-image">
+
+                <img src="ncc_A.jpg"
+                     alt="NCC Certificate A">
+
+                <div class="certificate-overlay">
+
+                    <button class="certificate-btn"
+                            data-certificate="nccA">
+
+                        View Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="certificate-card">
+
+            <div class="certificate-image">
+
+                <img src="ncc_B.jpg"
+                     alt="NCC Certificate B">
+
+                <div class="certificate-overlay">
+
+                    <button class="certificate-btn"
+                            data-certificate="nccB">
+
+                        View Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="certificate-card">
+
+            <div class="certificate-image">
+
+                <img src="ncc_camp.jpeg"
+                     alt="NCC Camp">
+
+                <div class="certificate-overlay">
+
+                    <button class="certificate-btn"
+                            data-certificate="nccCamp">
+
+                        View Details
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
 </section>
 
-<!-- ================= CERTIFICATES ================= -->
-
-<section id="certificate">
-
-<div class="section-title">
-
-<h2>Certificates</h2>
-<br>
-<div>
-
-<div class="certificate-container">
-<div class="card">
-<div class="certificate-card">
-
-<img src="WhatsApp Image 2026-07-24 at 11.33.24 PM (1).jpeg">
-</div>
-</div>
-
-<div class="card">
-<div class="certificate-card">
-<img src="WhatsApp Image 2026-07-24 at 11.33.25 PM (1).jpeg">
-</div>
-</div>
 
 
-<div class="card">
-<div class="certificate-card">
+<!-- =====================================================
+     CONTACT
+===================================================== -->
 
-<img src="WhatsApp Image 2026-07-24 at 11.33.25 PM (2).jpeg">
-</div>
-</div>
-
-
-<div class="card">
-<div class="certificate-card">
-
-<img src="WhatsApp Image 2026-07-24 at 11.33.25 PM.jpeg">
-</div>
-</div>
+<section id="contact"
+         class="contact-section">
 
 
-<div class="card">
-<div class="certificate-card">
-
-<img src="google1.jpeg">
-</div>
-</div>
+    <div class="section-container">
 
 
-<div class="card">
-<div class="certificate-card">
-
-<img src="deloitte.jpeg">
-</div>
-</div>
+        <div class="contact-wrapper">
 
 
-<div class="card">
-<div class="certificate-card">
+            <div class="contact-text">
 
-<img src="google2.jpeg">
-</div>
-</div>
+                <span class="section-number">
+                    06 / CONTACT
+                </span>
 
+                <h2>
+                    Let's build
+                    <span>something.</span>
+                </h2>
 
-<div class="card">
-<div class="certificate-card">
+                <p>
 
-<img src="microsoft.jpeg">
-</div>
-</div>
+                    Have an opportunity, project idea or
+                    simply want to connect? Feel free to reach out.
 
-
-<div class="card">
-<div class="certificate-card">
-
-<img src="tata1.jpeg">
-</div>
-</div>
+                </p>
 
 
-<div class="card">
-<div class="certificate-card">
-
-<img src="WhatsApp Image 2026-07-24 at 11.33.24 PM.jpeg">
-</div>
-</div>
+                <div class="contact-links">
 
 
-<div class="card">
-<div class="certificate-card">
+                    <a href="mailto:shikhar15aug@gmail.com">
 
-<img src="ncc_A.jpg">
-</div>
-</div>
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <div>
+
+                            <small>
+                                EMAIL
+                            </small>
+
+                            <strong>
+                                shikhar15aug@gmail.com
+                            </strong>
+
+                        </div>
+
+                    </a>
 
 
-<div class="card">
-<div class="certificate-card">
+                    <a href="https://github.com/shikhartiwari1508"
+                       target="_blank">
 
-<img src="ncc_B.jpg">
-</div>
-</div>
+                        <i class="fa-brands fa-github"></i>
+
+                        <div>
+
+                            <small>
+                                GITHUB
+                            </small>
+
+                            <strong>
+                                shikhartiwari1508
+                            </strong>
+
+                        </div>
+
+                    </a>
 
 
-<div class="card">
-<div class="certificate-card">
+                    <a href="https://www.linkedin.com/in/shikhar-tiwari-222007372"
+                       target="_blank">
 
-<img src="ncc_camp.jpeg">
-</div>
-</div>
+                        <i class="fa-brands fa-linkedin"></i>
 
-</div>
+                        <div>
+
+                            <small>
+                                LINKEDIN
+                            </small>
+
+                            <strong>
+                                Shikhar Tiwari
+                            </strong>
+
+                        </div>
+
+                    </a>
+
+
+                </div>
+
+            </div>
+
+
+
+            <form id="contactForm"
+                  class="contact-form">
+
+
+                <div class="form-row">
+
+                    <input type="text"
+                           id="name"
+                           placeholder="Your Name"
+                           required>
+
+                    <input type="email"
+                           id="email"
+                           placeholder="Your Email"
+                           required>
+
+                </div>
+
+
+                <input type="text"
+                       id="subject"
+                       placeholder="Subject"
+                       required>
+
+
+                <textarea id="message"
+                          placeholder="Tell me about your idea..."
+                          required></textarea>
+
+
+                <button type="submit"
+                        class="btn btn-primary">
+
+                    Send Message
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </button>
+
+
+                <p class="form-note">
+                    This opens your email application with the message prepared.
+                </p>
+
+            </form>
+
+
+        </div>
+
+    </div>
 
 </section>
 
-<!-- ================= CONTACT ================= -->
 
-<section id="contact">
+</main>
 
-<div class="section-title">
 
-<h2>Contact Me</h2>
 
-</div>
-
-<div class="contact-container">
-
-<form>
-
-<input type="text" placeholder="Your Name" required>
-
-<input type="email" placeholder="Email" required>
-
-<input type="text" placeholder="Subject" required>
-
-<textarea placeholder="Your Message" required></textarea>
-
-<button type="submit">
-
-Send Message
-
-</button>
-
-</form>
-
-</div>
-
-</section>
-
-<!-- ================= FOOTER ================= -->
+<!-- =====================================================
+     FOOTER
+===================================================== -->
 
 <footer>
 
-<p>
+    <div class="footer-inner">
 
-© 2026 Shikhar Tiwari | Designed with ❤️
+        <div>
 
-</p>
+            <strong>
+                SHIKHAR<span>.</span>
+            </strong>
+
+            <p>
+                Data Science • AI • Web Development
+            </p>
+
+        </div>
+
+
+        <p>
+            © 2026 Shikhar Tiwari
+        </p>
+
+
+        <a href="#home"
+           class="back-top">
+
+            Back to top
+
+            <i class="fa-solid fa-arrow-up"></i>
+
+        </a>
+
+    </div>
 
 </footer>
 
-    <script src="script.js"></script>
+
+
+<!-- =====================================================
+     PROJECT MODAL
+===================================================== -->
+
+<div class="modal"
+     id="projectModal">
+
+    <div class="modal-box">
+
+
+        <button class="modal-close"
+                data-close="projectModal">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <span class="modal-kicker">
+            PROJECT DETAILS
+        </span>
+
+
+        <h2 id="modalProjectTitle">
+            Project
+        </h2>
+
+
+        <p id="modalProjectDescription"
+           class="modal-description">
+        </p>
+
+
+        <div class="modal-columns">
+
+
+            <div>
+
+                <h3>
+                    <i class="fa-solid fa-code"></i>
+                    Technologies
+                </h3>
+
+                <div id="modalProjectTech"
+                     class="modal-tags">
+                </div>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    <i class="fa-solid fa-gears"></i>
+                    How It Works
+                </h3>
+
+                <p id="modalProjectWorking">
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="modal-detail-block">
+
+            <h3>
+                <i class="fa-solid fa-layer-group"></i>
+                What Was Built
+            </h3>
+
+            <p id="modalProjectBuilt">
+            </p>
+
+        </div>
+
+
+        <div class="modal-detail-block">
+
+            <h3>
+                <i class="fa-solid fa-star"></i>
+                Key Features
+            </h3>
+
+            <ul id="modalProjectFeatures">
+            </ul>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     CERTIFICATE MODAL
+===================================================== -->
+
+<div class="modal"
+     id="certificateModal">
+
+    <div class="modal-box certificate-modal">
+
+
+        <button class="modal-close"
+                data-close="certificateModal">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <span class="modal-kicker">
+            CERTIFICATE INFORMATION
+        </span>
+
+
+        <h2 id="modalCertificateTitle">
+            Certificate
+        </h2>
+
+
+        <div class="certificate-modal-grid">
+
+
+            <div class="certificate-preview">
+
+                <img id="modalCertificateImage"
+                     src=""
+                     alt="Certificate">
+
+                <button id="zoomCertificate"
+                        class="zoom-btn">
+
+                    <i class="fa-solid fa-expand"></i>
+
+                    Preview
+
+                </button>
+
+            </div>
+
+
+            <div>
+
+                <div class="modal-detail-block">
+
+                    <h3>
+                        <i class="fa-solid fa-award"></i>
+                        About
+                    </h3>
+
+                    <p id="modalCertificateAbout">
+                    </p>
+
+                </div>
+
+
+                <div class="modal-detail-block">
+
+                    <h3>
+                        <i class="fa-solid fa-book-open"></i>
+                        Learning
+                    </h3>
+
+                    <ul id="modalCertificateLearning">
+                    </ul>
+
+                </div>
+
+
+                <div class="certificate-info-grid">
+
+                    <div>
+
+                        <span>
+                            ISSUER
+                        </span>
+
+                        <strong id="modalCertificateIssuer">
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            TYPE
+                        </span>
+
+                        <strong>
+                            Certificate
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     IMAGE LIGHTBOX
+===================================================== -->
+
+<div class="lightbox"
+     id="lightbox">
+
+    <button id="closeLightbox">
+
+        <i class="fa-solid fa-xmark"></i>
+
+    </button>
+
+    <img id="lightboxImage"
+         src=""
+         alt="Certificate Preview">
+
+</div>
+
+
+
+<!-- =====================================================
+     COMMAND PALETTE
+===================================================== -->
+
+<div class="command-palette"
+     id="commandPalette">
+
+    <div class="command-box">
+
+
+        <div class="command-search">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="text"
+                   id="commandInput"
+                   placeholder="Search portfolio...">
+
+            <kbd>ESC</kbd>
+
+        </div>
+
+
+        <div class="command-list">
+
+
+            <button data-command="#home">
+
+                <i class="fa-solid fa-house"></i>
+
+                Home
+
+                <span>↵</span>
+
+            </button>
+
+
+            <button data-command="#about">
+
+                <i class="fa-solid fa-user"></i>
+
+                About
+
+                <span>↵</span>
+
+            </button>
+
+
+            <button data-command="#skills">
+
+                <i class="fa-solid fa-code"></i>
+
+                Skills
+
+                <span>↵</span>
+
+            </button>
+
+
+            <button data-command="#projects">
+
+                <i class="fa-solid fa-laptop-code"></i>
+
+                Projects
+
+                <span>↵</span>
+
+            </button>
+
+
+            <button data-command="#certificate">
+
+                <i class="fa-solid fa-award"></i>
+
+                Certificates
+
+                <span>↵</span>
+
+            </button>
+
+
+            <button data-command="#contact">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                Contact
+
+                <span>↵</span>
+
+            </button>
+
+
+        </div>
+
+
+        <div class="command-footer">
+
+            <span>
+                ↑↓ Navigate
+            </span>
+
+            <span>
+                Enter Select
+            </span>
+
+            <span>
+                ESC Close
+            </span>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     TOAST
+===================================================== -->
+
+<div id="toast"
+     class="toast">
+
+    <i class="fa-solid fa-circle-check"></i>
+
+    <span>
+        Message ready!
+    </span>
+
+</div>
+
+
+
+<script src="script.js"></script>
 
 </body>
 
