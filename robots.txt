@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/sitemap.xml
