@@ -153,6 +153,9 @@ https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/
 💻 **GitHub:**  
 https://github.com/shikhartiwari1508
 
+💻 **Linkdin:**  
+https://www.linkedin.com/in/shikhar-tiwari-222007372/
+
 ---
 
 ## ⭐ Support
