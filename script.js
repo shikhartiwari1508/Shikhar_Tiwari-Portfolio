@@ -1143,6 +1143,103 @@ const certificateData = {
             "Organizational skills"
         ]
 
+    },
+
+    cert6: {
+
+        title:
+            "Quantum technologies for Under Water Robot Sensing & PNT",
+
+        issuer:
+            "NIT Raipur",
+
+        image:
+            "NIT_Raipur.jpeg",
+
+        about:
+            "A certificate representing participation in a learning experience and earning the skill in Quantum technologies in Under water robot sensing and PNT .",
+
+        learning: [
+            "Quantum Technologies",
+            "Under Water Robot Sensing",
+            "PNT",
+            "Skill development",
+            "Learning experience",
+            "Professional growth"
+        ]
+
+    },
+
+    cert7: {
+
+        title:
+            "AI/ML for Geodata Analytics",
+
+        issuer:
+            "ISRO (IIRS Dehradoon)",
+
+        image:
+            "ISRO.jpeg",
+
+        about:
+            "A certificate representing participation in a learning experience and earning the skill in Geograhical data analysis using Artificial Intrlligence and Machine Learning .",
+
+        learning: [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Geographical Data",
+            "Data Analytics",
+            "Skill development",
+            "Learning experience",
+            "Professional growth"
+        ]
+
+    },
+
+    cert8: {
+
+        title:
+            "Viksit Bharat Young Leader Dialouge 2027",
+
+        issuer:
+            "Ministry of Youth Affairs & Sports",
+
+        image:
+            "my_bharat.jpeg",
+
+        about:
+            "A certificate representing participation in a learning experience and earning the skill in Viksit Bharat Young Leader Dialouge .",
+
+        learning: [
+            "Skill development",
+            "Learning experience",
+            "Professional growth"
+        ]
+
+    },
+
+    cert9: {
+
+        title:
+            "SkillQuest - Generative AI Literacy",
+
+        issuer:
+            "Simplilearn",
+
+        image:
+            "simplilearn.jpeg",
+
+        about:
+            "A certificate representing participation in a learning experience and earning the skill in Generative AI Literacy  .",
+
+        learning: [
+            "Geneartive AI",
+            "Artificial Intelligence",
+            "Skill development",
+            "Learning experience",
+            "Professional growth"
+        ]
+
     }
 
 };
