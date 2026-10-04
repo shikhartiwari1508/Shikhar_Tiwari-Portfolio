@@ -665,7 +665,7 @@ const projectData = {
             "SQLite",
             "PostgreSQL",
             "NLP",
-            "LLM APIs"
+            "Gemini APIs"
         ],
 
         working:
@@ -694,7 +694,58 @@ const projectData = {
 
         ]
 
+    },
+
+
+    smartfarm: {
+
+        title:
+            "SmartFarm AI",
+
+        description:
+            "An AI-powered smart agriculture platform designed to provide farmers with intelligent crop guidance, disease detection, irrigation recommendations and weather-based insights.",
+
+        technologies: [
+            "Python",
+            "FastAPI",
+            "React",
+            "Vite",
+            "Tailwind CSS",
+            "JavaScript",
+            "SQLite",
+            "Gemini AI",
+            "OpenWeatherMap"
+        ],
+
+        working:
+            "The architecture uses a React frontend for user interaction and a Python/FastAPI backend for application logic. AI components process agricultural queries, while weather and crop-related data are used to provide intelligent farming recommendations.",
+
+        built:
+            "A modular smart agriculture platform covering crop recommendations, plant disease detection, irrigation guidance, weather insights, AI chat assistance and personalized farming recommendations.",
+
+        features: [
+
+            "Crop Recommendation",
+
+            "Disease Detection",
+
+            "Smart Irrigation",
+
+            "Weather Insights",
+
+            "AI Farming Assistant",
+
+            "Crop Health Analysis",
+
+            "Farming Recommendations",
+
+            "AI Chat"
+
+        ]
+
     }
+
+
 
 };
 
