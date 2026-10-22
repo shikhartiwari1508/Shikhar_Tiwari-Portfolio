@@ -72,7 +72,7 @@ https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/
 - Artificial Intelligence
 - Machine Learning
 - Generative AI
-- LLMs
+- Gemini
 - AI Application Development
 
 ---
@@ -89,7 +89,7 @@ An AI chatbot project designed to provide an interactive conversational experien
 - JavaScript
 - Python
 - FastAPI
-- Ollama
+- Gemini
 
 ---
 
