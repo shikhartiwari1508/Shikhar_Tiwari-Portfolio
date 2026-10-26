@@ -164,6 +164,6 @@ If you find my projects interesting, consider giving the repository a ⭐ on Git
 
 ---
 
-### © 2026 Shikhar Tiwari
+### © 2026 Mr. Shikhar Tiwari
 
 Built with ❤️ using HTML, CSS & JavaScript.
