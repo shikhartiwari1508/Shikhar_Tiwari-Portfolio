@@ -1,43 +1,50 @@
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+# 👋 Hi, I'm Shikhar Tiwari
 
-# 👋 Shikhar Tiwari — Data Science & AI Portfolio
+### Data Science Student | AI & Machine Learning Enthusiast | Python Developer | Full-Stack Developer
 
-Welcome to my personal portfolio website! 🚀
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Machine_Learning-102230?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+</p>
 
-I'm **Shikhar Tiwari**, an Integrated BCA-MCA (Data Science) student with a strong interest in **Data Science, Artificial Intelligence, Python, Web Development, and emerging technologies**.
+Welcome to my personal portfolio!
 
-This portfolio showcases my skills, projects, certifications, education, and journey in the world of technology.
+I'm **Shikhar Tiwari**, an Integrated BCA–MCA (Data Science) student at the **University of Allahabad**, passionate about building intelligent applications and solving real-world problems through technology.
+
+My primary interests include Data Science, Artificial Intelligence, Machine Learning, Python Development, and Full-Stack Web Development.
+
+I enjoy transforming ideas into practical applications, experimenting with emerging technologies, and continuously improving my technical skills.
 
 ---
 
 ## 🌐 Live Portfolio
 
-🔗 **Visit my Portfolio:**
+**Explore my work, projects, skills, and achievements:**
 
-https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/
+🔗 https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/
 
 ---
 
 ## 👨‍💻 About Me
 
-- 🎓 Integrated BCA-MCA (Data Science) Student
-- 🐍 Interested in Python & Data Science
-- 🤖 Exploring Artificial Intelligence & Machine Learning
-- 🌐 Interested in Web Development
-- 📊 Learning Data Analysis and Visualization
-- 💡 Passionate about building practical projects
-- 🚀 Continuously learning new technologies
+- 🎓 Integrated BCA–MCA (Data Science) Student at the University of Allahabad.
+- 🐍 Passionate about Python Programming and Data Science.
+- 🤖 Exploring Artificial Intelligence and Machine Learning.
+- 🌐 Building responsive and interactive web applications.
+- 📊 Interested in Data Analytics and Data Visualization.
+- ⚡ Experienced in developing AI-powered applications using FastAPI and Gemini.
+- 🚀 Interested in hackathons, innovative ideas, and practical problem-solving.
+- 💡 Focused on continuous learning and technology-driven innovation.
 
 ---
 
-## 🛠️ Skills & Technologies
+## 🛠️ Technical Skills
 
 ### Programming Languages
-
 - Python
 - C
 - Java
@@ -45,125 +52,190 @@ https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/
 - JavaScript
 
 ### Data Science & Analytics
-
 - NumPy
 - Pandas
 - Matplotlib
 - Seaborn
-- Data Analysis
 - Exploratory Data Analysis (EDA)
+- Data Cleaning and Preprocessing
+- Data Visualization
 
-### Web Development
+### Artificial Intelligence & Machine Learning
+- Machine Learning Fundamentals
+- Supervised & Unsupervised Learning
+- Generative AI
+- Google Gemini API
+- AI Chatbot Development
+- AI-powered Application Development
 
+### Web Development & Backend
 - HTML5
 - CSS3
 - JavaScript
 - Responsive Web Design
+- Python FastAPI
+- REST APIs
+- React.js
+- Tailwind CSS
 
-### Tools & Platforms
-
-- Git
-- GitHub
+### Database & Tools
+- SQL
+- SQLite
+- MongoDB
+- Git & GitHub
 - VS Code
+- Power BI
 - Tableau
-
-### AI & Machine Learning
-
-- Artificial Intelligence
-- Machine Learning
-- Generative AI
-- Gemini
-- AI Application Development
+- Render
+- Vercel
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🤖 Universe AI
+### 1. 🤖 Universe AI — Intelligent AI Assistant
 
-An AI chatbot project designed to provide an interactive conversational experience.
+An AI-powered conversational assistant designed to provide interactive and intelligent responses using modern AI technologies.
 
-**Technologies:**
-- HTML
-- CSS
-- JavaScript
-- Python
-- FastAPI
-- Gemini
+**Key Features:**
+- AI-powered conversational interface.
+- Google Gemini API integration.
+- Local AI support using Ollama.
+- FastAPI backend.
+- Chat history management.
+- Document upload support.
 
----
+**Tech Stack:** Python, FastAPI, JavaScript, HTML, CSS, Gemini API, Ollama, SQLite.
 
-### 🌐 Personal Portfolio
+🔗 **Live Demo:** https://universe-ai-58di.onrender.com
 
-A responsive personal portfolio website showcasing my:
-
-- About Me
-- Skills
-- Projects
-- Certifications
-- Education
-- Contact Information
-
-**Technologies:**
-- HTML
-- CSS
-- JavaScript
+🔗 **GitHub:** https://github.com/shikhartiwari1508/Universe-AI
 
 ---
 
-## 📜 Certifications
+### 2. 🌱 SmartFarm AI — AI-Powered Smart Agriculture
 
-My portfolio includes certifications related to:
+An intelligent agriculture platform designed to assist farmers through AI-powered agricultural insights and recommendations.
 
-- Data Analytics
-- UI/UX
-- Technology & Development
-- NCC
+**Key Features:**
+- AI-powered agricultural assistance.
+- Weather information and farming recommendations.
+- Multilingual interface with Hindi support.
+- Crop-related information.
+- Agricultural market price information.
 
-More details and certificates are available on my portfolio website.
+**Tech Stack:** Python, FastAPI, React.js, Vite, Tailwind CSS, Google Gemini API.
 
----
-
-## 📚 Currently Learning
-
-I'm continuously improving my knowledge in:
-
-- Data Science
-- Artificial Intelligence
-- Machine Learning
-- Python
-- SQL
-- Web Development
-- Generative AI
-- Data Visualization
+🔗 **GitHub:** https://github.com/shikhartiwari1508/SmartFarm-AI
 
 ---
 
-## 🎯 Career Goal
+### 3. 🎓 CampusMindAI — Smart Campus Complaint Management
 
-My goal is to build a strong career in **Data Science and Artificial Intelligence** by developing practical projects, improving my technical skills, and continuously learning new technologies.
+An AI-powered campus complaint management platform designed to simplify communication between students and university administration.
 
----
+**Key Features:**
+- Student and administrator authentication.
+- Online complaint registration.
+- AI-based complaint categorization.
+- Automatic priority and department assignment.
+- Duplicate complaint detection.
+- Complaint management workflow.
 
-## 📫 Connect With Me
+**Tech Stack:** Python, FastAPI, React.js, JavaScript, AI, SQLite.
 
-🌐 **Portfolio:**  
-https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/
+🔗 **Live Demo:** https://campusmindai-iota.vercel.app/
 
-💻 **GitHub:**  
-https://github.com/shikhartiwari1508
-
-💻 **Linkdin:**  
-https://www.linkedin.com/in/shikhar-tiwari-222007372/
-
----
-
-## ⭐ Support
-
-If you find my projects interesting, consider giving the repository a ⭐ on GitHub!
+🔗 **GitHub:** https://github.com/shikhartiwari1508/CampusMindAI
 
 ---
 
-### © 2026 Mr. Shikhar Tiwari
+### 4. 🎓 Student Management System
 
-Built with ❤️ using HTML, CSS & JavaScript.
+A web-based application designed to streamline student information and academic management.
+
+**Key Features:**
+- Student and teacher login.
+- Student information management.
+- Web-based management interface.
+
+**Tech Stack:** Python, FastAPI, HTML, CSS, JavaScript, SQLite.
+
+🔗 **Live Demo:** https://student-management-system-z71o.onrender.com/
+
+---
+
+### 5. 🌐 Personal Portfolio Website
+
+A modern, responsive portfolio showcasing my professional profile, technical skills, projects, certifications, and academic journey.
+
+**Tech Stack:** HTML5, CSS3, JavaScript.
+
+🔗 **Live Portfolio:** https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/
+
+---
+
+## 📊 GitHub Statistics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shikhartiwari1508&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shikhartiwari1508&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=shikhartiwari1508&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 📜 Certifications & Achievements
+
+- 🎖️ NCC B Certificate.
+- 📊 Howard University – Data Analytics.
+- 🎨 Udemy – UI/UX Design.
+- 💻 Udemy – Boot Camp.
+- 🚀 Participated in technology and innovation-focused project development and hackathon activities.
+
+---
+
+## 📚 Currently Learning & Exploring
+
+- Advanced Python Programming.
+- Data Science and Machine Learning.
+- Artificial Intelligence and Generative AI.
+- SQL and Database Management.
+- Power BI and Data Visualization.
+- Full-Stack Web Development.
+- Building scalable AI-powered applications.
+
+---
+
+## 🎯 Career Objective
+
+My goal is to become a skilled **Data Scientist and AI Developer** by combining programming, analytical thinking, and artificial intelligence to build impactful real-world solutions.
+
+I believe in learning by building, experimenting with new technologies, and turning innovative ideas into meaningful projects.
+
+---
+
+## 🤝 Let's Connect
+
+I'm always interested in connecting with developers, technology enthusiasts, and people working on innovative ideas.
+
+- 🌐 **Portfolio:** https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/
+- 💻 **GitHub:** https://github.com/shikhartiwari1508
+- 💼 **LinkedIn:** https://www.linkedin.com/in/shikhar-tiwari-222007372/
+
+---
+
+<p align="center">
+  <b>⭐ If you find my projects interesting, consider giving them a star!</b>
+</p>
+
+<p align="center">
+  <i>"Building today, innovating tomorrow."</i>
+</p>
+
+<p align="center">
+  © 2026 Shikhar Tiwari | Built with passion for technology ❤️
+</p>
