@@ -1,231 +1,353 @@
-# 👋 Hi, I'm Shikhar Tiwari
+# 👋 Hi, I'm Shikhar Tiwari!
 
-### Data Science Student | AI & Machine Learning Enthusiast | Python Developer | Full-Stack Developer
+### AI & Data Science Enthusiast | Python Developer | Full-Stack Developer
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Machine_Learning-102230?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=F97316&center=true&vCenter=true&width=700&lines=Building+Intelligent+AI+Applications;Exploring+Data+Science+%26+Machine+Learning;Developing+Real-World+Solutions;Turning+Ideas+Into+Technology" alt="Typing SVG" />
 </p>
 
-Welcome to my personal portfolio!
+<p align="center">
+  <a href="https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/">
+    <img src="https://img.shields.io/badge/🌐_Visit_My_Portfolio-F97316?style=for-the-badge" alt="Portfolio"/>
+  </a>
+  <a href="https://github.com/shikhartiwari1508">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/shikhar-tiwari-222007372/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+</p>
+
+---
+
+## 🚀 About Me
 
 I'm **Shikhar Tiwari**, an Integrated BCA–MCA (Data Science) student at the **University of Allahabad**, passionate about building intelligent applications and solving real-world problems through technology.
 
-My primary interests include Data Science, Artificial Intelligence, Machine Learning, Python Development, and Full-Stack Web Development.
+My primary interests include Artificial Intelligence, Machine Learning, Data Science, Python Development and Full-Stack Web Development.
 
-I enjoy transforming ideas into practical applications, experimenting with emerging technologies, and continuously improving my technical skills.
+I enjoy transforming ideas into practical projects, experimenting with AI technologies and continuously improving my development skills.
 
----
-
-## 🌐 Live Portfolio
-
-**Explore my work, projects, skills, and achievements:**
-
-🔗 https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/
-
----
-
-## 👨‍💻 About Me
-
-- 🎓 Integrated BCA–MCA (Data Science) Student at the University of Allahabad.
-- 🐍 Passionate about Python Programming and Data Science.
-- 🤖 Exploring Artificial Intelligence and Machine Learning.
-- 🌐 Building responsive and interactive web applications.
-- 📊 Interested in Data Analytics and Data Visualization.
-- ⚡ Experienced in developing AI-powered applications using FastAPI and Gemini.
-- 🚀 Interested in hackathons, innovative ideas, and practical problem-solving.
-- 💡 Focused on continuous learning and technology-driven innovation.
+- 🎓 Integrated BCA–MCA (Data Science) Student
+- 🤖 Exploring Artificial Intelligence & Generative AI
+- 🐍 Working with Python, FastAPI and Machine Learning
+- 📊 Interested in Data Science and Data Analytics
+- 🌐 Building Full-Stack Web Applications
+- 🧠 Exploring LLMs, Gemini API and Local AI Models
+- 🚀 Passionate about innovation and real-world problem solving
 
 ---
 
 ## 🛠️ Technical Skills
 
-### Programming Languages
-- Python
-- C
-- Java
-- R
-- JavaScript
+### 💻 Programming Languages
 
-### Data Science & Analytics
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Exploratory Data Analysis (EDA)
-- Data Cleaning and Preprocessing
-- Data Visualization
+<p>
+  <img src="https://skillicons.dev/icons?i=python,c,java,r,javascript" />
+</p>
 
-### Artificial Intelligence & Machine Learning
-- Machine Learning Fundamentals
-- Supervised & Unsupervised Learning
-- Generative AI
-- Google Gemini API
-- AI Chatbot Development
-- AI-powered Application Development
+### 🌐 Web Development
 
-### Web Development & Backend
-- HTML5
-- CSS3
-- JavaScript
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,fastapi" />
+</p>
+
 - Responsive Web Design
-- Python FastAPI
-- REST APIs
-- React.js
-- Tailwind CSS
+- REST API Development
+- Frontend & Backend Integration
+- Full-Stack Application Development
 
-### Database & Tools
-- SQL
+### 🤖 AI & Machine Learning
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,sklearn" />
+</p>
+
+- Artificial Intelligence (AI)
+- Machine Learning (ML)
+- Generative AI
+- Large Language Models (LLMs)
+- Natural Language Processing (NLP)
+- Google Gemini API
+- Ollama & Local LLMs
+- Llama 3.2
+- AI Application Development
+- Scikit-learn
+
+### 📊 Data Science & Analytics
+
+<p>
+  <img src="https://skillicons.dev/icons?i=numpy,pandas" />
+</p>
+
+- NumPy & Pandas
+- Matplotlib & Seaborn
+- Data Analysis
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Statistical Analysis
+- Machine Learning Algorithms
+
+### 🗄️ Database & Backend Technologies
+
+<p>
+  <img src="https://skillicons.dev/icons?i=fastapi,sqlite,postgres,mongodb" />
+</p>
+
+- FastAPI
 - SQLite
-- MongoDB
+- PostgreSQL
+- SQLAlchemy
+- JWT Authentication
+- Database Management
+
+### 🧰 Tools & Platforms
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel,render,androidstudio" />
+</p>
+
 - Git & GitHub
-- VS Code
+- Visual Studio Code
+- Google Colab
+- Jupyter Notebook
 - Power BI
 - Tableau
-- Render
-- Vercel
+- Ollama
+- Render & Vercel
 
 ---
 
 ## 🚀 Featured Projects
 
-### 1. 🤖 Universe AI — Intelligent AI Assistant
+Here are some of my major projects focused on Artificial Intelligence, Data Science and Full-Stack Development.
 
-An AI-powered conversational assistant designed to provide interactive and intelligent responses using modern AI technologies.
+### 1. 🤖 Universe AI
+
+**An Intelligent AI Assistant | Cloud AI + Local AI**
+
+Universe AI is an AI-powered conversational assistant designed to provide intelligent responses, solve problems and assist users through cloud-based and locally running AI models.
 
 **Key Features:**
-- AI-powered conversational interface.
-- Google Gemini API integration.
-- Local AI support using Ollama.
-- FastAPI backend.
-- Chat history management.
-- Document upload support.
+- 💬 AI-Powered Conversations
+- 🧠 Google Gemini API Integration
+- 🖥️ Local AI using Ollama
+- ⚡ Llama 3.2 Model Support
+- 🔄 Cloud & Local AI Integration
+- 📄 PDF & TXT Document Uploads
+- 💾 Chat History Management
+- 📱 Android Application Support
 
-**Tech Stack:** Python, FastAPI, JavaScript, HTML, CSS, Gemini API, Ollama, SQLite.
+**Tech Stack:**
 
-🔗 **Live Demo:** https://universe-ai-58di.onrender.com
+`Python` `FastAPI` `JavaScript` `Gemini API` `Ollama` `Llama 3.2` `SQLite` `Capacitor`
 
-🔗 **GitHub:** https://github.com/shikhartiwari1508/Universe-AI
+<p>
+  <a href="https://universe-ai-58di.onrender.com">
+    <img src="https://img.shields.io/badge/Live_Demo-F97316?style=for-the-badge&logo=render&logoColor=white"/>
+  </a>
+  <a href="https://github.com/shikhartiwari1508/Universe-AI">
+    <img src="https://img.shields.io/badge/GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
-### 2. 🌱 SmartFarm AI — AI-Powered Smart Agriculture
+### 2. 🧠 CampusMind AI
 
-An intelligent agriculture platform designed to assist farmers through AI-powered agricultural insights and recommendations.
+**AI-Powered Campus Complaint Management Platform**
+
+CampusMind AI is an intelligent campus grievance management platform designed to simplify student complaints, automate complaint classification and help administrators manage campus issues efficiently.
 
 **Key Features:**
-- AI-powered agricultural assistance.
-- Weather information and farming recommendations.
-- Multilingual interface with Hindi support.
-- Crop-related information.
-- Agricultural market price information.
+- 👨‍🎓 Student Registration & Login
+- 🔐 Secure JWT Authentication
+- 🤖 AI-Based Complaint Classification
+- 🚨 Automatic Severity & Urgency Detection
+- 🔍 Duplicate Complaint Detection
+- 🏢 Department Recommendation
+- 🎫 Unique Complaint Ticket ID
+- 📊 Administrator Complaint Management
 
-**Tech Stack:** Python, FastAPI, React.js, Vite, Tailwind CSS, Google Gemini API.
+**Tech Stack:**
 
-🔗 **GitHub:** https://github.com/shikhartiwari1508/SmartFarm-AI
+`Python` `FastAPI` `React` `JavaScript` `SQLAlchemy` `SQLite` `JWT` `AI / NLP`
+
+<p>
+  <a href="https://campusmindai-iota.vercel.app/">
+    <img src="https://img.shields.io/badge/Live_Demo-F97316?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+  <a href="https://github.com/shikhartiwari1508/CampusMindAI">
+    <img src="https://img.shields.io/badge/GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
-### 3. 🎓 CampusMindAI — Smart Campus Complaint Management
+### 3. 🌱 SmartFarm AI
 
-An AI-powered campus complaint management platform designed to simplify communication between students and university administration.
+**AI-Powered Smart Agriculture Platform**
+
+SmartFarm AI is an intelligent agriculture platform designed to support farmers with AI-powered agricultural guidance, weather information, farming recommendations and market insights.
 
 **Key Features:**
-- Student and administrator authentication.
-- Online complaint registration.
-- AI-based complaint categorization.
-- Automatic priority and department assignment.
-- Duplicate complaint detection.
-- Complaint management workflow.
+- 🌾 AI Farming Assistant
+- 🌦️ Weather Information
+- 🌱 Smart Farming Recommendations
+- 📈 Agricultural Market Prices
+- 🌐 Multilingual User Interface
+- 🤖 Gemini-Powered AI Assistance
 
-**Tech Stack:** Python, FastAPI, React.js, JavaScript, AI, SQLite.
+**Tech Stack:**
 
-🔗 **Live Demo:** https://campusmindai-iota.vercel.app/
+`Python` `FastAPI` `React` `Vite` `Tailwind CSS` `JavaScript` `Gemini API`
 
-🔗 **GitHub:** https://github.com/shikhartiwari1508/CampusMindAI
+<p>
+  <a href="https://github.com/shikhartiwari1508/SmartFarm-AI">
+    <img src="https://img.shields.io/badge/GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
 ### 4. 🎓 Student Management System
 
-A web-based application designed to streamline student information and academic management.
+**Web-Based Student & Academic Management Platform**
+
+A web application designed to organize student information and academic records with separate teacher and student login interfaces.
 
 **Key Features:**
-- Student and teacher login.
-- Student information management.
-- Web-based management interface.
+- 👨‍🏫 Teacher Login
+- 👨‍🎓 Student Login
+- 🔐 User Authentication
+- 📚 Student Information Management
+- 📋 Academic Record Management
 
-**Tech Stack:** Python, FastAPI, HTML, CSS, JavaScript, SQLite.
+**Tech Stack:**
 
-🔗 **Live Demo:** https://student-management-system-z71o.onrender.com/
+`Python` `FastAPI` `HTML` `CSS` `JavaScript` `Database`
+
+<p>
+  <a href="https://student-management-system-z71u.onrender.com/">
+    <img src="https://img.shields.io/badge/Live_Demo-F97316?style=for-the-badge&logo=render&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
-### 5. 🌐 Personal Portfolio Website
+### 5. 🐍 Python & Machine Learning Programs
 
-A modern, responsive portfolio showcasing my professional profile, technical skills, projects, certifications, and academic journey.
+**Python Programming & Practical ML Implementations**
 
-**Tech Stack:** HTML5, CSS3, JavaScript.
+A collection of Python programs and machine learning implementations covering programming fundamentals, data preprocessing and important ML algorithms.
 
-🔗 **Live Portfolio:** https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/
+**Topics Covered:**
+- Data Preprocessing
+- K-Nearest Neighbors (KNN)
+- K-Means Clustering
+- Decision Trees
+- Random Forest
+- Support Vector Machines (SVM)
+- DBSCAN Clustering
+- Hierarchical Clustering
+- Feature Scaling
+- Cross Validation
+
+**Tech Stack:**
+
+`Python` `NumPy` `Pandas` `Matplotlib` `Scikit-learn`
+
+<p>
+  <a href="https://github.com/shikhartiwari1508/Python-Programs">
+    <img src="https://img.shields.io/badge/GitHub_Repository-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+### 6. 🌐 Personal Portfolio Website
+
+**My Digital Identity & Developer Portfolio**
+
+A responsive portfolio website showcasing my technical skills, projects, certifications, education and professional journey.
+
+**Tech Stack:**
+
+`HTML5` `CSS3` `JavaScript`
+
+🔗 [Explore My Portfolio](https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/)
+
+---
+
+## 📜 Certifications & Achievements
+
+- 🏅 NCC B Certificate
+- 🎨 Udemy – UI/UX Design
+- 💻 Udemy – Bootcamp Certification
+- 📊 Howard University – Data Analytics
+
+More information and certificate details are available on my portfolio website.
+
+🌐 [View My Portfolio](https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/)
+
+---
+
+## 🎓 Education
+
+**University of Allahabad**
+
+Integrated BCA–MCA (Data Science)
+
+2024 – Present
+
+---
+
+## 📚 Currently Learning & Exploring
+
+- Advanced Machine Learning
+- Generative AI & LLM Applications
+- Full-Stack Development
+- Data Analytics & Power BI
+- AI Model Integration
+- Database Design & Optimization
+- Building Scalable AI Applications
+
+---
+
+## 🎯 My Career Objective
+
+To grow as an AI and Data Science professional by developing innovative applications, strengthening my programming and analytical skills, and building technology solutions that create meaningful real-world impact.
 
 ---
 
 ## 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=shikhartiwari1508&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" width="49%" alt="GitHub Stats"/>
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=shikhartiwari1508&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="49%" alt="Top Languages"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=shikhartiwari1508&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shikhartiwari1508&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shikhartiwari1508&theme=github_dark" width="49%" alt="GitHub Statistics"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shikhartiwari1508&theme=github_dark" width="49%" alt="Repository Languages"/>
+  <img src="https://streak-stats.demolab.com?user=shikhartiwari1508&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 
 ---
 
-## 📜 Certifications & Achievements
+## 🤝 Let's Connect!
 
-- 🎖️ NCC B Certificate.
-- 📊 Howard University – Data Analytics.
-- 🎨 Udemy – UI/UX Design.
-- 💻 Udemy – Boot Camp.
-- 🚀 Participated in technology and innovation-focused project development and hackathon activities.
+I'm always interested in connecting with developers, learning new technologies, collaborating on innovative projects and exploring opportunities in AI and Data Science.
 
----
-
-## 📚 Currently Learning & Exploring
-
-- Advanced Python Programming.
-- Data Science and Machine Learning.
-- Artificial Intelligence and Generative AI.
-- SQL and Database Management.
-- Power BI and Data Visualization.
-- Full-Stack Web Development.
-- Building scalable AI-powered applications.
-
----
-
-## 🎯 Career Objective
-
-My goal is to become a skilled **Data Scientist and AI Developer** by combining programming, analytical thinking, and artificial intelligence to build impactful real-world solutions.
-
-I believe in learning by building, experimenting with new technologies, and turning innovative ideas into meaningful projects.
-
----
-
-## 🤝 Let's Connect
-
-I'm always interested in connecting with developers, technology enthusiasts, and people working on innovative ideas.
-
-- 🌐 **Portfolio:** https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/
-- 💻 **GitHub:** https://github.com/shikhartiwari1508
-- 💼 **LinkedIn:** https://www.linkedin.com/in/shikhar-tiwari-222007372/
+<p align="center">
+  <a href="https://shikhartiwari1508.github.io/Shikhar_Tiwari-Portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-F97316?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+  </a>
+  <a href="https://github.com/shikhartiwari1508">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://www.linkedin.com/in/shikhar-tiwari-222007372/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
@@ -234,9 +356,9 @@ I'm always interested in connecting with developers, technology enthusiasts, and
 </p>
 
 <p align="center">
-  <i>"Building today, innovating tomorrow."</i>
+  <i>"Learning, Building, Innovating — One Project at a Time."</i>
 </p>
 
 <p align="center">
-  © 2026 Shikhar Tiwari | Built with passion for technology ❤️
+  © 2026 Shikhar Tiwari | Built with ❤️ and curiosity.
 </p>
