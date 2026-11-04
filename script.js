@@ -648,53 +648,62 @@ const projectData = {
     },
 
 
-    careerpilot: {
+    universeai: {
 
-        title:
-            "CareerPilot AI",
+    title:
+        "Universe AI",
 
-        description:
-            "An AI-powered career assistant concept designed to combine career guidance, resume analysis and skill development into one platform.",
+    description:
+        "An intelligent AI-powered assistant designed to provide smart conversations, answer questions, solve problems and assist users through cloud-based and locally running AI models.",
 
-        technologies: [
-            "Python",
-            "FastAPI",
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "SQLite",
-            "PostgreSQL",
-            "NLP",
-            "Gemini APIs"
-        ],
+    technologies: [
+        "Python",
+        "FastAPI",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Google Gemini API",
+        "Ollama",
+        "Llama 3.2",
+        "SQLite",
+        "Capacitor"
+    ],
 
-        working:
-            "The planned architecture uses a frontend for user interaction, a Python/FastAPI backend for application logic and a database for storing user information. AI/NLP components can process resumes and career-related queries.",
+    working:
+        "The application uses a frontend interface connected to a Python FastAPI backend. It integrates Google Gemini API for cloud-based AI responses and Ollama with Llama 3.2 for local AI processing. SQLite stores chat history, while the backend manages API requests, conversation context and file processing.",
 
-        built:
-            "A modular career platform concept covering resume analysis, ATS scoring, portfolio generation, interview practice, skill-gap analysis and career roadmaps.",
+    built:
+        "A full-stack AI chatbot platform featuring intelligent conversations, cloud and local AI integration, chat history management, document uploads and an Android application interface.",
 
-        features: [
+    features: [
 
-            "Resume Analyzer",
+        "AI-Powered Conversations",
 
-            "ATS Score Checker",
+        "Google Gemini Integration",
 
-            "Resume Builder",
+        "Local AI with Ollama",
 
-            "Portfolio Generator",
+        "Llama 3.2 Model Support",
 
-            "Interview Practice",
+        "Cloud & Local AI Switching",
 
-            "Skill Gap Analysis",
+        "Chat History Management",
 
-            "Career Roadmap",
+        "New Chat Functionality",
 
-            "AI Career Chat"
+        "Context-Aware Responses",
 
-        ]
+        "PDF & TXT File Upload",
 
-    },
+        "FastAPI Backend",
+
+        "SQLite Database",
+
+        "Android App Support"
+
+    ]
+
+},
 
 
     smartfarm: {
@@ -743,9 +752,61 @@ const projectData = {
 
         ]
 
-    }
+    },
 
+    campusmindai: {
 
+    title:
+        "CampusMind AI",
+
+    description:
+        "An AI-powered campus complaint management platform designed to simplify student grievance reporting, automate complaint classification and help administrators resolve campus issues efficiently.",
+
+    technologies: [
+        "Python",
+        "FastAPI",
+        "React",
+        "JavaScript",
+        "SQLAlchemy",
+        "SQLite",
+        "JWT Authentication",
+        "AI / NLP",
+        "Gemini API"
+    ],
+
+    working:
+        "The platform uses a React frontend for student and administrator interactions, a FastAPI backend for API management, and a database for storing user accounts and complaints. AI-based services automatically classify complaints, determine severity and urgency, recommend departments, and identify potentially duplicate complaints.",
+
+    built:
+        "A full-stack AI-powered campus complaint management system featuring student authentication, complaint submission, automated AI classification, duplicate complaint detection, public ticket tracking and administrator complaint management.",
+
+    features: [
+
+        "Student Registration & Login",
+
+        "Secure JWT Authentication",
+
+        "AI Complaint Classification",
+
+        "Automatic Severity Detection",
+
+        "Complaint Priority Management",
+
+        "Duplicate Complaint Detection",
+
+        "Department Recommendation",
+
+        "Unique Complaint Ticket ID",
+
+        "Student Complaint Tracking",
+
+        "Admin Complaint Management",
+
+        "Smart Campus Grievance System"
+
+    ]
+
+}
 
 };
 
