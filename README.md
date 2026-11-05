@@ -308,6 +308,7 @@ Integrated BCA–MCA (Data Science)
 - Generative AI & LLM Applications
 - Full-Stack Development
 - Data Analytics & Power BI
+- Tableau
 - AI Model Integration
 - Database Design & Optimization
 - Building Scalable AI Applications
